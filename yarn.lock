@@ -325,15 +325,15 @@ bignumber.js@^9.0.0:
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
   integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
 
-bip39-sss-js-sdk@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/bip39-sss-js-sdk/-/bip39-sss-js-sdk-0.1.0.tgz#3b459560a66f50325995f87856b10fbfcb862a27"
-  integrity sha512-hzJynlGVquC5NgMS5iQYeY5deWSznHuj9PCG5hMeLIrtEksrTN9qQdtSiytaDKOrF+5j72Jk/y/lCCmZEFAP/g==
+bip39-sss-js-sdk@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/bip39-sss-js-sdk/-/bip39-sss-js-sdk-0.1.1.tgz#0b95319d639c60b3d94cf2cce7c829191f135eb5"
+  integrity sha512-NpZh90tXvgeSDv+XL9BrcbJtit1NFpNgRoNkfcqW1rexCq1VHq+w/YvTf1u0yuNXzRxFywvM0aEf06k4V/YI2A==
   dependencies:
+    bip39 "^3.0.3"
     randombytes "^2.1.0"
-    shamir-bip39 "^0.1.3"
 
-bip39@^3.0.3, bip39@^3.0.4:
+bip39@^3.0.3:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.0.4.tgz#5b11fed966840b5e1b8539f0f54ab6392969b2a0"
   integrity sha512-YZKQlb752TrUWqHWj7XAwCSjYEgGAk+/Aas3V7NyjQeZYsztO8JnQUaCWhcnL4T+jL8nvB8typ2jRPzTlgugNw==
@@ -2092,14 +2092,6 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-shamir-bip39@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/shamir-bip39/-/shamir-bip39-0.1.3.tgz#dc7c6db2462519661b72748c2568530daebf3cd6"
-  integrity sha512-vJ7O1TflAArI5Cen9A0hYGcGQgMTwjwp7pjNtNyFNy9Hm7/p3e6y53u539KcNC8ppLCs51vQ5K58sAdO94PfVQ==
-  dependencies:
-    bip39 "^3.0.3"
-    randombytes "^2.1.0"
 
 simple-concat@^1.0.0:
   version "1.0.1"
