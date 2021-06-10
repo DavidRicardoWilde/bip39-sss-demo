@@ -325,10 +325,10 @@ bignumber.js@^9.0.0:
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
   integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
 
-bip39-sss-js-sdk@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/bip39-sss-js-sdk/-/bip39-sss-js-sdk-0.1.1.tgz#0b95319d639c60b3d94cf2cce7c829191f135eb5"
-  integrity sha512-NpZh90tXvgeSDv+XL9BrcbJtit1NFpNgRoNkfcqW1rexCq1VHq+w/YvTf1u0yuNXzRxFywvM0aEf06k4V/YI2A==
+bip39-sss-js-sdk@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/bip39-sss-js-sdk/-/bip39-sss-js-sdk-0.1.2.tgz#fd9997b224f464060d180f469cfb855aa565cf79"
+  integrity sha512-/k/+sOmNDBd+dYI8QTBOw/zC7P2TmaTN/zRrxUImQve4LE/FluHVMq1Fvbj64f2jU2Q+HZalzAc/VtF97/SG8w==
   dependencies:
     bip39 "^3.0.3"
     randombytes "^2.1.0"
